@@ -17,7 +17,7 @@ docker compose up
 CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS                   PORTS                               NAMES
 52510ad33635   go-chaos_api   "go run cmd/main/mai…"   4 minutes ago   Up 4 minutes             127.0.0.1:9010->9010/tcp            go-chaos_api_1
 43a36128d23c   mysql:latest   "docker-entrypoint.s…"   4 minutes ago   Up 4 minutes (healthy)   0.0.0.0:3306->3306/tcp, 33060/tcp   db
-➜  ~ docker exec -it 52510ad33635 /bin/bash
+➜  ~ docker exec -it 52510ad33635 /bin/sh
 ```
 
 ## Add Entry
