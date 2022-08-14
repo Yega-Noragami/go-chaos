@@ -1,0 +1,3 @@
+## IDE Specific
+.vscode/*
+.DS_store
