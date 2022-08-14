@@ -27,7 +27,7 @@ curl --location --request POST 'localhost:9010/lists' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "TempKey" : "Naruto",
-    "TempValue": "Fire"
+    "TempValue": "Village Hidden in the Leaf"
 }'
 ```
 
