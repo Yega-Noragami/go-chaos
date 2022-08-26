@@ -1,5 +1,4 @@
-Assignment submission for chaos-theory by Manish Dhal
-
+Project showcasing GOLang Docker REST API with MYSQL backend server
 
 ## Start Project
 
@@ -26,8 +25,8 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS   
 curl --location --request POST 'localhost:9010/lists' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "TempKey" : "Naruto",
-    "TempValue": "Village Hidden in the Leaf"
+    "TempKey" : "Manish Dhal",
+    "TempValue": "Developer"
 }'
 ```
 
